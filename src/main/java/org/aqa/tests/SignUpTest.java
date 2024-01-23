@@ -16,6 +16,6 @@ public class SignUpTest {
     @Test
     public void zipCodeShouldBeValid(){
         WebDriver driver = new ChromeDriver();
-
+        driver.get("https://www.sharelane.com/cgi-bin/register.py");
     }
 }
